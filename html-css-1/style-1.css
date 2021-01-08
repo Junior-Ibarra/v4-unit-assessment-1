@@ -1,0 +1,30 @@
+nav {
+	display: inline-block;
+}
+#header {
+	display: inline-block;
+	padding-top: 30px;
+	padding-right: 25px;
+}
+.nav {
+	padding-right: 60px;
+	font-size: 20px;
+}
+header {
+	background-color: salmon;
+	height: 125px;
+	padding-left: 25px;
+	border: solid 1px black;
+}
+.html-logo {
+	float: left;
+	height: 100px;
+}
+.css-logo {
+	float: right;
+	height: 100px;
+}
+section {
+	border: dotted 5px black;
+	margin: 5px;
+}
