@@ -9,16 +9,14 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
-
+const gitDefinition = 'terminal that takes in a bunch if letters'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
-
+const gitHubDefinition = 'storage/tracker for projects'
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -33,52 +31,67 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
-
+const init = {
+    description: 'initialize repo',
+    code: 'git init'
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
-
+const clone = {
+    description: 'clones a repo from gitHub',
+    code: 'git clone url'
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
-
+const status = {
+    description: 'displays files with changes'
+    code: 'git status'
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
-
+const add = {
+    description: 'adds a change to the directory'
+    code: 'git add .'
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
-
+const commit = {
+    description: 'saves changes to your files'
+    code: 'git commit -m "first"'
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
-
+const addRemote = {
+    description: 'adds repository'
+    code: 'git add remote'
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+const push = {
+    description: 'pushes changes to github repository'
+    code: 'git push .'
+}

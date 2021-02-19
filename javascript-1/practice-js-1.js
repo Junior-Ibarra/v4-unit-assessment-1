@@ -1,26 +1,25 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
-//CODE HERE 
-
+const myName = 'Junior'
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
-//CODE HERE
-
+const faveNum = 7
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
-//CODE HERE
-
+const lovesCode = true
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. 
   The function should return the sum of the two parameters.
 */
 
-//CODE HERE
-
+const sum = function (num1, num2){
+  return num1 + num2
+}
+const total = sum(3, 7)
 //////////////////PROBLEM 5////////////////////
 /*
   Create a function called 'trueOrFalse' that takes in a single parameter called 'data'. 
@@ -29,8 +28,13 @@
   If 'data' is a falsy value, return a false boolean.
 */
 
-//CODE HERE
-
+function trueOrFalse(data){
+  if true {
+    return true
+  }else {
+    return false
+  }
+}
 //////////////////PROBLEM 6////////////////////
 /*
   Create a function called 'oddChecker' that takes in one parameter, 'num'. 
@@ -39,7 +43,13 @@
   If the number is even, return the string: 'the number is even'.
 */
 
-//CODE HERE
+function oddChecker(num){
+  if % 2 {
+    return 'the number is odd'
+  }else {
+    return 'the number is even'
+  }
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -48,21 +58,21 @@
   "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 */
 
-//CODE HERE
-
+function iLove (name, love){
+  return `${name} loves ${love}`
+}
+const iLoveString = iLove(NAMEPARAM, LOVEPARAM)
 
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
 const faveColors = ['red', 'green', 'black']
 
-//CODE HERE
-
+const colorCopy = faveColors.slice()
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
-//CODE HERE
-
+colorCopy.push(yellow)
 //////////////////PROBLEM 10////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -71,8 +81,7 @@ const faveColors = ['red', 'green', 'black']
 
 const numbers = [1, 2, 3, 4, 5]
 
-//CODE HERE
-
+const middleNums = numbers.slice(0, 1, 4)
 //////////////////PROBLEM 11////////////////////
 /*
   Create an object called 'me' that has the following keys: 
@@ -87,8 +96,12 @@ const numbers = [1, 2, 3, 4, 5]
   For example: 'Hello! My name is Joseph and I live in Utah"
 */
 
-//CODE HERE
-
+let me = {
+  firstName: 'Junior',
+  state: 'Arizona',
+  age: 34,
+  greeter: `Hello! My name is ${firstName} and I live in ${state}`
+}
 //////////////////PROBLEM 12////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -102,7 +115,14 @@ const numbers = [1, 2, 3, 4, 5]
   Return the answers array inside of the function.
 */
 
-// CODE HERE
+function bigOrSmall(arr){
+  let answers = []
+  if (arr>100){
+    return 'big'}
+    if else {
+      return 'small'
+    }
+  }
 
 //////////////////PROBLEM 13////////////////////
 /* 

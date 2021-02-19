@@ -1,13 +1,11 @@
 //////////////////STEP 1////////////////////
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
-//CODE HERE
-
+let groceries = ['apples', 'oranges', 'bananas']
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
-//CODE HERE
-
+const yourName = 'Junior'
 //////////////////STEP 3////////////////////
 /*
     Create a function called 'setGroceryListTitle' that takes in one parameter called 'x'. 
@@ -16,8 +14,9 @@
     the function would return 'Joseph's Grocery List'.
 */
 
-//CODE HERE
-
+function setGroceryListTitle = (x){
+    return x + "'s Grocery List"
+}
 //////////////////STEP 4////////////////////
 /* 
     Create a function called 'addItem' that takes in one parameter called 'item'. 
@@ -26,8 +25,11 @@
     that takes care of some of the work for getting your page to display correctly.
 */
 
-//CODE HERE
-
+function addItem = (item) {
+    function displayData = (){
+        
+    }
+}
 //////////////////STEP 5////////////////////
 /*
     Create a function called 'removeItem' that takes in one parameter called 'index'. 
